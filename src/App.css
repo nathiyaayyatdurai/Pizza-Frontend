@@ -1,0 +1,222 @@
+body{
+    background-color:whitesmoke
+}
+
+.fa-1x{
+    transition-delay: ease-in;
+    margin-right: 5px;
+    color:rgb(160, 140, 30)
+}
+.fa-1x:hover{
+    width: 50px;
+    font-size: 2s;
+    color:rgb(167, 78, 153)
+}
+.me-auto{
+    font-size: larger;
+}
+.me-auto:hover{
+    color:#fff
+}
+.carousel{
+    width:100%;
+    height: 90vh;
+    transition-delay: ease-in;
+    background-color: #121619;
+}
+.transport{
+    background-color: #FB9D3E;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    margin : 20px 10px 30px 0px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+   
+}
+.accod{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    transition-timing-function: ease-in-out;
+}
+.fa-3x:hover{
+   color:#fff;
+   transition-timing-function: ease-in-out;
+}
+.speciality{
+    display:flex;
+    background-color: #121619;
+    color:#fff;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+    border-radius: 30px;
+   
+}
+.special_case{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
+  object-fit: cover;
+  
+}
+.special_case:hover{
+    margin: auto;
+    width: 325px;
+    height: 325px;
+    border:2px solid;
+    border-radius: 100px;
+    object-fit: cover;
+    border-color: aliceblue;
+}
+.speciality_header{
+    background-color: #121619;
+    color:#fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-variant: inherit;
+    padding: 20px;
+   
+}
+/* menuitem */
+.menu_nav {
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+.pizza_list{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+sup{
+    margin:14px 12px;
+}
+.ordered {
+    display:flex;
+    background-color: #121619;
+    color:#fff;
+    bottom: flex-start;
+    margin-top:10px
+}
+.orderHeading{
+    text-align: center;
+    
+    
+}
+.orderImage{
+    margin: 20px;
+    border:2px solid;
+    border-color: #fff;
+    border-radius:20%
+
+    
+}
+.orderItem{
+       width:100%;
+    height:100vh;
+   
+}
+.orderlist{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.crust{
+    display: flex;
+    gap:50px;
+    justify-content:center
+}
+#curst_size{
+    padding:10px;
+    border:2px solid;
+    border-color:pink;
+    background-color:#fff;
+    color:#121619
+}
+.curst_color{
+    padding:10px;
+    border:2px solid;
+    border-color:pink;
+    background-color: black;
+    color:#fff
+}
+.curst-input{
+    margin:20px;
+   
+}
+.container-billing{
+    background-color:whitesmoke;
+    border: 1px solid;
+    border-color: rgb(184, 132, 132);
+    margin: 20px;
+    width:800px
+
+}
+.billing{
+    margin: 20px
+
+}
+.line{
+    border:0.5px solid;
+    border-color: rgb(184, 132, 132);
+    margin: 0 5px 0 5px;
+
+}
+#uk-width-1-4s{
+    display: flex;
+    gap:10px
+}
+.uk-grid-small{
+    margin: 40px;
+
+}
+.uk-grid-small{
+    display:flex;
+    flex-direction:column;
+    gap:10px
+        
+}
+.billing-details{
+    display: flex;
+    flex-direction:column;
+    margin: 40px;
+    border: 2px solid;
+    border-color: rgb(184, 132, 132);
+    width :400px;
+    padding: 20px ;
+    
+
+}
+.payment{
+    display:flex;
+    flex-direction:column;
+    margin-top: 30px;
+    text-align : center
+}
+.login_heading{
+    height:100vh;
+    width:100%;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    margin-left:1180px;
+    gap:20px
+}
+.login{
+    width:100px;
+   display: flex;
+   justify-content: center;
+   align-items:center
+}
+.login_button{
+    display: flex;
+    gap:20px
+}
